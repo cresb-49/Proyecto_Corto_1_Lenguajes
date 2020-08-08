@@ -24,5 +24,20 @@ namespace ProyectoCorto1
         {
             InitializeComponent();
         }
+
+        private void ClickAnalizar(object sender, RoutedEventArgs e)
+        { 
+            String textoContenido = textBoxIngresoDatos.Text;
+            Console.WriteLine(textoContenido);
+            int cantidadEspacios = 0;
+            int inicio = 0;
+            while(textoContenido.IndexOf(" ",inicio) != -1)
+            {
+                cantidadEspacios++;
+                inicio = textoContenido.IndexOf(" ", inicio) + 1;
+            }
+            int primerEspacio =  textoContenido.IndexOf(" ");
+            Console.WriteLine(cantidadEspacios);
+        }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\bin\Debug\ProyectoCorto1.exe.config
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\bin\Debug\ProyectoCorto1.exe
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\bin\Debug\ProyectoCorto1.pdb
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\ProyectoCorto1.csprojAssemblyReference.cache
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\MainWindow.g.cs
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\App.g.cs
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\ProyectoCorto1_MarkupCompile.cache
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\ProyectoCorto1_MarkupCompile.lref
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\MainWindow.baml
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\ProyectoCorto1.g.resources
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\ProyectoCorto1.Properties.Resources.resources
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\ProyectoCorto1.csproj.GenerateResource.cache
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\ProyectoCorto1.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\ProyectoCorto1.exe
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\ProyectoCorto1.pdb
