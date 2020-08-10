@@ -26,18 +26,62 @@ namespace ProyectoCorto1
         }
 
         private void ClickAnalizar(object sender, RoutedEventArgs e)
-        { 
+        {
             String textoContenido = textBoxIngresoDatos.Text;
-            Console.WriteLine(textoContenido);
-            int cantidadEspacios = 0;
-            int inicio = 0;
-            while(textoContenido.IndexOf(" ",inicio) != -1)
+            int acii = System.Convert.ToInt32(Convert.ToChar(textoContenido.Substring(0, 1)));
+
+            Console.WriteLine(acii);
+
+            List<String> palabras = palabrasEncontadas(textoContenido);
+            for (int i = 0; i < palabras.Count; i++)
             {
-                cantidadEspacios++;
-                inicio = textoContenido.IndexOf(" ", inicio) + 1;
+                Console.WriteLine(palabras.ElementAt(i));
             }
-            int primerEspacio =  textoContenido.IndexOf(" ");
-            Console.WriteLine(cantidadEspacios);
+
+            InentificadorPalabras ProcesmientoTexto = new InentificadorPalabras();
+            ProcesmientoTexto.pocesarTexto(palabras);
+
+
+        }
+        
+        private int contadorEspacios(String cadenaProcesar)
+        {
+            int inicio = 0;
+            int cantidadEspacios = 0;
+            while (cadenaProcesar.IndexOf(" ", inicio) != -1)
+            {
+                if (cadenaProcesar.IndexOf(" ", inicio) > -1)
+                {
+                    cantidadEspacios++;
+                    inicio = cadenaProcesar.IndexOf(" ", inicio) + 1;
+                }
+            }
+            return cantidadEspacios;
+        }
+        private List<String> palabrasEncontadas(String arreglo)
+        {
+            List<String> palabras = new List<String>();
+            int inicio = 0;
+            int fin = 0;
+            fin = arreglo.IndexOf(" ")-1;
+            for (int i =0; i < contadorEspacios(arreglo); i++)
+            {
+                palabras.Add(extraerTexto(arreglo, inicio, fin));
+                inicio = fin + 2;
+                fin = arreglo.IndexOf(" ", inicio) - 1;
+            }
+            fin = (arreglo.Length)-1;
+            palabras.Add(extraerTexto(arreglo, inicio, fin));
+            return palabras;
+        }
+        private String extraerTexto(String cadena, int inicio,int fin)
+        {
+            String temporal = "";
+            for(int i = inicio; i <= fin; i++)
+            { 
+                temporal = temporal + cadena.Substring(i, 1);
+            }
+            return temporal;
         }
     }
 }
