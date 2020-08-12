@@ -80,7 +80,7 @@ namespace ProyectoCorto1
                     S++;
                 }
             }
-            Console.WriteLine($"Letras :{L}, Numeros: {N}, Signos: {S}");
+            //Console.WriteLine($"Letras :{L}, Numeros: {N}, Signos: {S}");
             if (L == 0 && N == 0 && S > 0)
             {
                 return resultado;

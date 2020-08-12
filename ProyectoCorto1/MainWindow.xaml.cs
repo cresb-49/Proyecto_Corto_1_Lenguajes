@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoCorto1.Graphics;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,22 +29,24 @@ namespace ProyectoCorto1
         private void ClickAnalizar(object sender, RoutedEventArgs e)
         {
             String textoContenido = textBoxIngresoDatos.Text;
-            InentificadorPalabras ProcesmientoTexto = new InentificadorPalabras();
-            
-            int acii = System.Convert.ToInt32(Convert.ToChar(textoContenido.Substring(0, 1)));
+            this.MostrarResultado(textoContenido);
 
-            Console.WriteLine(acii);
+        }
+        private void MostrarResultado(String textoContenido)
+        {
+            InentificadorPalabras ProcesmientoTexto = new InentificadorPalabras();
 
             List<String> palabras = ProcesmientoTexto.palabrasEncontadas(textoContenido);
-
+            List<String> resultadosConjunto = new List<string>();
             for (int i = 0; i < palabras.Count; i++)
             {
-                Console.WriteLine(palabras.ElementAt(i));
-                Console.WriteLine(ProcesmientoTexto.clasificacionCadena(palabras.ElementAt(i)));
+                String cadenaResultado;
+                cadenaResultado = palabras.ElementAt(i) + " -> " + ProcesmientoTexto.clasificacionCadena(palabras.ElementAt(i));
+                resultadosConjunto.Add(cadenaResultado);
+                //Console.WriteLine(cadenaResultado);
             }
-            ProcesmientoTexto.pocesarTexto(palabras);
-
-
+            ResultadoExamen ventanaResultados = new ResultadoExamen(resultadosConjunto);
+            ventanaResultados.Show();
 
         }
     }

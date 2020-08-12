@@ -19,9 +19,17 @@ namespace ProyectoCorto1.Graphics
     /// </summary>
     public partial class ResultadoExamen : Window
     {
-        public ResultadoExamen()
+        public ResultadoExamen(List<String> resultados)
         {
             InitializeComponent();
+            this.agregarResultados(resultados);
+        }
+        private void agregarResultados(List<String> resultados)
+        {
+            for (int i = 0; i < resultados.Count; i++)
+            {
+                listaResultados.Items.Add(resultados.ElementAt(i));
+            }
         }
     }
 }
