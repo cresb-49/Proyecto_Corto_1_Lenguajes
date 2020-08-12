@@ -5,7 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoCorto1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="710">
+        Title="MainWindow" Height="200" Width="710"
+        ResizeMode="NoResize"
+        Topmost="True"
+        WindowStartupLocation="CenterScreen"
+        >
     <Grid Margin="0,0,2,3">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="363*"/>

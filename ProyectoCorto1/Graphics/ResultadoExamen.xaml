@@ -5,7 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoCorto1.Graphics"
         mc:Ignorable="d"
-        Title="Resultado de analicis" Height="450" Width="276.5">
+        Title="Resultado de analicis" Height="450" Width="276.5"
+        ResizeMode="NoResize"
+        Topmost="True"
+        WindowStartupLocation="CenterScreen"
+        >
     <Grid>
         <ListBox Name="listaResultados"  HorizontalAlignment="Left" Height="368" Margin="24,21,0,0" VerticalAlignment="Top" Width="225"/>
 
