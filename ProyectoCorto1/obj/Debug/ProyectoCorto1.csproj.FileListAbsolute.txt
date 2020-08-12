@@ -13,3 +13,5 @@ C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\Proyect
 C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\ProyectoCorto1.csproj.CoreCompileInputs.cache
 C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\ProyectoCorto1.exe
 C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\ProyectoCorto1.pdb
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\Graphics\ResultadoExamen.g.cs
+C:\Users\Carlos Pac\source\repos\ProyectoCorto1\ProyectoCorto1\obj\Debug\Graphics\ResultadoExamen.baml

@@ -8,15 +8,12 @@
         Title="MainWindow" Height="200" Width="710">
     <Grid Margin="0,0,2,3">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="27*"/>
-            <ColumnDefinition Width="90*"/>
-            <ColumnDefinition Width="40*"/>
-            <ColumnDefinition Width="28*"/>
-            <ColumnDefinition Width="515*"/>
+            <ColumnDefinition Width="363*"/>
+            <ColumnDefinition Width="337*"/>
         </Grid.ColumnDefinitions>
-        <Label Content="Ingreso de Texto:" HorizontalAlignment="Left" Margin="0,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.395,0.346" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <TextBox Name="textBoxIngresoDatos" HorizontalAlignment="Left" Height="23" Margin="33,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="357" Grid.Column="2" Grid.ColumnSpan="3"/>
-        <Button Content="Analizar" HorizontalAlignment="Left" Margin="355,58,0,0" VerticalAlignment="Top" Width="130" Height="23" Grid.Column="4" Click="ClickAnalizar" ClickMode="Press"/>
+        <Label Content="Ingreso de Texto:" HorizontalAlignment="Left" Margin="30,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.395,0.346"/>
+        <TextBox Name="textBoxIngresoDatos" HorizontalAlignment="Left" Height="23" Margin="151,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="357" Grid.ColumnSpan="2"/>
+        <Button Content="Analizar" HorizontalAlignment="Left" Margin="172,58,0,0" VerticalAlignment="Top" Width="130" Height="23" Click="ClickAnalizar" ClickMode="Press" Grid.Column="1"/>
 
     </Grid>
 </Window>
