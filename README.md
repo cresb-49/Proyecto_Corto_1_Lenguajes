@@ -5,4 +5,4 @@ _Uso del IDE Visual Studio en su version 2019_
 _Proyecto (WPF) C#_
 
 ### Ruta de Ejecutable .exe 
-_ProyectoCorto1\bin\Debug\ProyectoCorto1.exes
+_ProyectoCorto1\bin\Debug\ProyectoCorto1.exe
